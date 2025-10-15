@@ -21,6 +21,3 @@ fn convert_f2c(temp: f64) -> f64 {
     (temp - 32.0) * 5.0 / 9.0
 }
 
-fn convert_c2f(temp: f64) -> f64 {
-    temp * 9.0 / 5.0 + 32.0
-}
